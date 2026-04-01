@@ -1,0 +1,49 @@
+# COMSOL
+*.mph.bak
+*.mph~
+*.log
+*.status
+*.class
+
+# Altair
+*.h3d
+*.res
+*.stat
+*.out
+*.log
+*.rst
+*.mvw
+*.hwresult
+HyperStudy_temp/
+run_*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Data files (large)
+*.csv.gz
+*.hdf5
+*.h5
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
