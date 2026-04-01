@@ -55,7 +55,9 @@ COMSOL input parameters and their ranges are defined in `docs/research-plan.md`.
 
 ## Git Conventions
 
-Commit after each meaningful unit of work. Message format:
+**Commit and push frequently.** After completing any meaningful unit of work — a new script, a processed dataset, updated docs, a results figure — stage, commit, and push immediately. Never leave work uncommitted at the end of a session. GitHub is the source of truth and the only recovery point if local work is lost.
+
+Commit message format:
 
 ```
 <verb> <what> [for <purpose>]
@@ -65,9 +67,14 @@ Examples:
   Add HyperStudy LHS DOE with 300 sample points
   Add power density prediction script using processed dataset
   Update research plan with Phase 2 methodology details
+  Add Pareto front plot for power density vs. COD removal
 ```
 
-Always push after committing — this repo is the version-controlled backup of all simulation work.
+Trigger a commit+push after:
+- Any new or modified file in `scripts/`, `docs/`, or `results/`
+- Any new processed dataset added to `data/processed/` or `data/experimental/`
+- Any update to `docs/research-plan.md` or `README.md`
+- Completing a phase or sub-task from the research plan
 
 ## Key Research Context
 
